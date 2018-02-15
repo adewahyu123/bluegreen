@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'cloudfoundry'
-    }
-    
-  }
+  agent none
   stages {
     stage('Development') {
       steps {
