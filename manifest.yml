@@ -1,0 +1,4 @@
+applications:
+- name: sampleBlueGreen
+  memory: 128M
+  random-route: true
